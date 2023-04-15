@@ -11,8 +11,11 @@ export const FirstApp = ({ title, subtitle }) => {
   return (
     <>
         {/* <span> { getName('Juan') } </span> */}
-        <span>{ title }</span>
-        <p>{ subtitle + 25 }</p>
+        <h1 data-testid="test-title" >{ title }</h1>
+        {/* <p>{ subtitle + 25 }</p> */}
+        <p>{ subtitle  }</p>
+        <p>{ subtitle  }</p>
+        <p>{ subtitle  }</p>
     </>
   )
 }

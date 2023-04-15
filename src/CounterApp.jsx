@@ -27,12 +27,12 @@ export const CounterApp = ({ value }) => {
 
   return (
     <>
-      <h1> CounterApp </h1>
-      <h2> { counter } </h2>
+      <h1>CounterApp</h1>
+      <h2>{ counter }</h2>
 
       <button onClick={ sum }> +1 </button>
       <button onClick={ subtract }> -1 </button>
-      <button onClick={ reset }> Reset </button>
+      <button aria-label='btn-reset' onClick={ reset }> Reset </button>
     </>
   )
 }
